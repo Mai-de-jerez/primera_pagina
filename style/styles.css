@@ -4,23 +4,26 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 1000px;
+    width: 1150px;
     margin: 0 auto;
-    
+    background-size: cover;
 }
+    
 .todo{
-    width: 800px;
-    margin: 0 auto;
+    width: 1150px;
     text-align: center;
-    margin-top: 100px;
+    margin: auto 0;
+    margin-top: 25px;
     border-color: black;
     border-radius: 10px;
-    background-color: white;
+    background-color: transparent;
     background-image: url(../images/avionesdesenfocado1.jgp);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
+
+   
 .titulo{
     font-size: xx-large;/*fuente tamaño*/
     font-family: Helvetica, Gill Sans, Lucida;/*fuente familia*/
@@ -247,6 +250,5 @@ td {
         min-height: auto; /* Permite que el contenido se ajuste */
     }
 }
-
 
 
