@@ -1,55 +1,66 @@
-body {
+body{
     background-color: white;
     background-image: url(../images/aviones1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    max-width: 100%;
+    width: 1000px;
     margin: 0 auto;
+    
 }
-
-.todo {
-    max-width: 90%;
+.todo{
+    width: 800px;
     margin: 0 auto;
     text-align: center;
     margin-top: 100px;
     border-color: black;
     border-radius: 10px;
     background-color: white;
-    background-image: url(../images/avionesdesenfocado1.jpg);
+    background-image: url(../images/avionesdesenfocado1.jgp);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
-
-.titulo {
-    font-size: xx-large;
-    font-family: Helvetica, Gill Sans, Lucida;
-    font-weight: bold;
-    color: black;
-    background-color: white;
-    padding: 20px; /* Distancia del texto al borde del div */
-    border: 2px solid black; /* Bordes */
-    border-radius: 10px;
+.titulo{
+    font-size: xx-large;/*fuente tamaño*/
+    font-family: Helvetica, Gill Sans, Lucida;/*fuente familia*/
+    font-weight: bold;/*grosor del texto*/
+    color:black;/*color del texto*/
+    background-color: white;/*color del fondo*/
+    padding-top: 20px;/*distancia del texto al borde del div por arriba*/
+    padding-bottom: 20px;/*distancia del texto al borde del div por abajo*/
+    border-width: 2px;/*anchura del borde*/
+    border-style: solid;/*estilo del borde*/
+    border-color: black;/*color del borde*/
+    background-image: url(../images/avionesdesenfocado1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    border: 2px solid #000000; 
+    border-radius: 10px;/*redondear las esquinas del borde*/
     text-align: center;
-    max-width: 90%; /* Asegura que tenga el mismo ancho que los otros contenedores */
-    margin: 0 auto; /* Centrado */
 }
 
-.menu {
+.menu{
     text-align: center;
     background-color: #f6f2b6;
     margin: 10px;
-    border: 2px solid #4a1e20;
-    padding: 10px;
-    font-weight: bold;
-    font-variant: small-caps;
-    word-spacing: 10px;
+    border-style: solid;
+    border-color: #4a1e20;
+    border-width: 2px;
+    padding-top: 10px;/*anchura del relleno del elemento 
+    de la parte superior*/
+    padding-bottom: 10px;/*anchura del relleno del elemento 
+    de la parte inferior*/
+    font-weight: bold;/*anchura del texto*/
+    font-variant: small-caps;/*define la letra como versalitas*/
+    word-spacing: 10px;/*espaciado entre letras*/
 }
 
 .menu a {
     color: #4a1e20;
     text-decoration: none;
+    /*color para armonía #3D4859*/
 }
 
 .menu a:hover {
@@ -62,16 +73,20 @@ body {
 
 .contenido {
     position: relative;
-    padding: 20px; /* Relleno */
-    border: 2px solid #0D0802; /* Bordes */
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-style: solid;
+    border-color: #0D0802;
+    border-width: 2px;
     text-align: left;
     min-height: 300px;
     background: url(../images/avionesdesenfocado1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    margin: 20px auto; /* Margen superior e inferior */
-    max-width: 90%; /* Asegura que no se salga */
+    margin-bottom: 20px ;
 }
 
 #capitular {
@@ -79,21 +94,23 @@ body {
 }
 
 table {
-    width: 100%; /* Asegura que la tabla ocupe el 100% del contenedor */
-    margin: 0 auto; /* Centra la tabla */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    border-style: none;
 }
 
 td {
     width: 30%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fotos {
     border-width: 1px;
     border-color: #3D4859;
     border-style: solid;
-    max-width: 100%; /* Asegúrate de que se escalen */
-    height: auto; /* Mantiene proporciones */
 }
 
 #curriculum {
@@ -104,12 +121,12 @@ td {
       url(../images/esquina-bottom-left.png) bottom left,
       url(../images/esquina-bottom-right.png) bottom right,
       url(../images/fondo-curriculum.jpg) center no-repeat;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-}
+      background-repeat: no-repeat;
+      background-color: #ffffff;
+} 
 
 #curriculum div {
-    display: table;
+    display:table;
     min-height: 300px;
     width: 100%;
 }
@@ -135,10 +152,11 @@ td {
     background-attachment: fixed;
 }
 
+
 .mapaweb {
     font-family: Helvetica, 'Gill Sans', Lucida;
     border-style: none;
-    max-width: 90%; /* Cambiado a max-width */
+    width: 800px;
     margin: 0 auto;
     position: relative;
     padding-left: 15px;
@@ -146,7 +164,7 @@ td {
 
 .mapaweb a {
     text-decoration: none;
-    color: #000000;
+    color:#000000;
 }
 
 .mapawebposicion {
@@ -158,49 +176,75 @@ td {
 }
 
 .pie {
-    margin: 20px auto; /* Margen superior e inferior */
-    padding: 10px; /* Relleno */
-    border: 2px solid #0D0802; /* Bordes */
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-style: solid;
+    border-color: #0D0802;
+    border-width: 2px;
     text-align: left;
     min-height: 30px;
     background: url(../images/avionesdesenfocado1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    max-width: 90%; /* Asegura que no se salga */
 }
 
 .pie a {
     text-decoration: none;
-    color: #4a1e20;
+    color:#4a1e20;
 }
 
 .pie a:hover {
-    color: #510600;
+    color:#510600;
 }
 
 .pie a:visited {
-    color: #3D4859;
+    color:#3D4859
 }
 
-@media (max-width: 600px) {
+/* Estilos generales para dispositivos móviles */
+@media (max-width: 768px) {
+    body {
+        width: 100%; /* Asegura que el cuerpo ocupa el 100% del ancho */
+        background-attachment: scroll; /* Cambia el fondo a scroll para evitar problemas de fondo fijo */
+    }
+
+    .todo {
+        width: 90%; /* Reduce el ancho en móviles */
+        margin-top: 20px; /* Ajusta el margen superior */
+    }
+
     .titulo {
-        font-size: large; /* Ajusta según el tamaño */
-        padding: 10px; /* Ajusta padding */
+        font-size: 24px; /* Reduce el tamaño de la fuente */
+        padding-top: 10px; /* Ajusta el relleno */
+        padding-bottom: 10px; /* Ajusta el relleno */
     }
 
     .menu {
-        font-size: small; /* Ajusta el tamaño de la fuente */
+        font-size: 14px; /* Reduce el tamaño de la fuente */
+        word-spacing: normal; /* Restablece el espaciado */
     }
 
     .contenido {
-        padding: 10px; /* Ajusta padding */
-        margin: 10px; /* Ajusta margen */
+        padding: 10px; /* Reduce el relleno */
+        min-height: auto; /* Permite que el contenido se ajuste */
     }
-    
-    .fotos {
-        max-width: 100%; /* Asegúrate de que se escalen */
-        height: auto; /* Mantiene proporciones */
+
+    #curriculum {
+        min-height: auto; /* Permite que el contenido se ajuste */
+    }
+
+    .mapaweb {
+        width: 95%; /* Aumenta el ancho en móviles */
+    }
+
+    .pie {
+        min-height: auto; /* Permite que el contenido se ajuste */
     }
 }
 
