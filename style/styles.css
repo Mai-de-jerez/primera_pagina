@@ -4,45 +4,47 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    max-width: 100%; /* Cambiado de width a max-width */
+    max-width: 100%;
     margin: 0 auto;
 }
 
 .todo {
-    max-width: 90%; /* Cambiado de width a max-width */
-    margin: 0 auto; /* Mantiene el centrado */
+    max-width: 90%;
+    margin: 0 auto;
     text-align: center;
-    margin-top: 100px; /* Puedes ajustar este margen según necesites */
+    margin-top: 100px;
     border-color: black;
     border-radius: 10px;
     background-color: white;
     background-image: url(../images/avionesdesenfocado1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed; /* Mantén esto si quieres el fondo fijo */
+    background-attachment: fixed;
 }
 
 .titulo {
-    font-size: xx-large; /* Fuente tamaño */
-    font-family: Helvetica, Gill Sans, Lucida; /* Fuente familia */
-    font-weight: bold; /* Grosor del texto */
-    color: black; /* Color del texto */
-    background-color: white; /* Color del fondo */
+    font-size: xx-large;
+    font-family: Helvetica, Gill Sans, Lucida;
+    font-weight: bold;
+    color: black;
+    background-color: white;
     padding: 20px; /* Distancia del texto al borde del div */
     border: 2px solid black; /* Bordes */
-    border-radius: 10px; /* Redondear las esquinas del borde */
+    border-radius: 10px;
     text-align: center;
+    max-width: 90%; /* Asegura que tenga el mismo ancho que los otros contenedores */
+    margin: 0 auto; /* Centrado */
 }
 
 .menu {
     text-align: center;
     background-color: #f6f2b6;
     margin: 10px;
-    border: 2px solid #4a1e20; /* Bordes */
-    padding: 10px; /* Relleno */
-    font-weight: bold; /* Grosor del texto */
-    font-variant: small-caps; /* Versalitas */
-    word-spacing: 10px; /* Espaciado entre letras */
+    border: 2px solid #4a1e20;
+    padding: 10px;
+    font-weight: bold;
+    font-variant: small-caps;
+    word-spacing: 10px;
 }
 
 .menu a {
@@ -201,4 +203,6 @@ td {
         height: auto; /* Mantiene proporciones */
     }
 }
+
+
 
